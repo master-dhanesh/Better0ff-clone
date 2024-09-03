@@ -1,0 +1,61 @@
+nav > i {
+    display: none;
+    font-size: 30px;
+}
+
+.filler {
+    height: 30vh;
+}
+
+@media (max-width: 600px) {
+    nav > i {
+        display: initial;
+    }
+
+    nav > ul {
+        display: none;
+    }
+    nav h1:last-of-type {
+        display: none;
+    }
+
+    .page1 > .content {
+        display: initial;
+    }
+
+    .page1 > .content > .left,
+    .page1 > .content > .right {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .page1 .left p {
+        width: inherit;
+    }
+    .page1 .left button {
+        width: max-content;
+    }
+
+    .page1 .right {
+        font-size: 30px;
+    }
+
+    .filler {
+        height: 10vh;
+    }
+
+    .page1 .slider-inside span {
+        font-size: 200px;
+    }
+
+    .page1 .slider-inside img {
+        height: 180px;
+    }
+
+    .page2 > h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+}
+
+/* http://ipv4number:5500 */
