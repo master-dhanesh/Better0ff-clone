@@ -56,6 +56,69 @@ nav > i {
         width: 100%;
         font-size: 25px;
     }
+
+    .page3 {
+        flex-direction: column;
+    }
+    .page3 > h1:first-child {
+        width: 100%;
+        font-size: 35px;
+        margin-bottom: 5%;
+    }
+
+    .page3 div {
+        width: 100%;
+    }
+    .page3 h1:last-child,
+    .page4nav > h1:first-child {
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .page4 {
+        padding: 0;
+    }
+
+    .page4nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .page4nav {
+        font-size: 15px;
+    }
+
+    .page4content {
+        display: flex;
+        white-space: nowrap;
+        align-items: center;
+        width: 100%;
+        font-size: 80px;
+        overflow-x: auto;
+        padding-bottom: 5%;
+    }
+
+    .page4content::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+    }
+
+    .page4content::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .page4content::-webkit-scrollbar-thumb {
+        background-color: #cccec8;
+    }
+
+    .page4content > video {
+        height: 100px;
+        width: max-content;
+    }
+
+    .page4footer {
+        display: none;
+    }
 }
 
 /* http://ipv4number:5500 */
